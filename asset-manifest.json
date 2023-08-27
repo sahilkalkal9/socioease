@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae5f2351.css",
-    "main.js": "/static/js/main.0959f05d.js",
+    "main.css": "/static/css/main.cb1566f2.css",
+    "main.js": "/static/js/main.2767acfc.js",
     "static/js/787.c7eeac3a.chunk.js": "/static/js/787.c7eeac3a.chunk.js",
     "static/media/12.jpg": "/static/media/12.2c643809139ea60df848.jpg",
     "static/media/wave.gif": "/static/media/wave.f02dd4524329a5ecf40c.gif",
@@ -54,6 +54,7 @@
     "static/media/logo.png": "/static/media/logo.50f6294a368682e321c4.png",
     "static/media/emoji-button.png": "/static/media/emoji-button.4e4f4061b1cf557b6cb7.png",
     "static/media/eangry.png": "/static/media/eangry.a510f1feddddeb0ca196.png",
+    "static/media/map.png": "/static/media/map.95285186a4e7ae804892.png",
     "static/media/plus.png": "/static/media/plus.b3120687d3118e5ed136.png",
     "static/media/snap.png": "/static/media/snap.e0c2fe7a8d33a7f5f15d.png",
     "static/media/sendB.png": "/static/media/sendB.f05c495951d139b41386.png",
@@ -64,12 +65,12 @@
     "static/media/doda.mp3": "/static/media/doda.92155fc3fa7eed4573e2.mp3",
     "index.html": "/index.html",
     "static/media/heart.svg": "/static/media/heart.e77dada76e0954e967f46e07a9d6d34a.svg",
-    "main.ae5f2351.css.map": "/static/css/main.ae5f2351.css.map",
-    "main.0959f05d.js.map": "/static/js/main.0959f05d.js.map",
+    "main.cb1566f2.css.map": "/static/css/main.cb1566f2.css.map",
+    "main.2767acfc.js.map": "/static/js/main.2767acfc.js.map",
     "787.c7eeac3a.chunk.js.map": "/static/js/787.c7eeac3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae5f2351.css",
-    "static/js/main.0959f05d.js"
+    "static/css/main.cb1566f2.css",
+    "static/js/main.2767acfc.js"
   ]
 }
