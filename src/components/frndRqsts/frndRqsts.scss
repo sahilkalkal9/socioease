@@ -1,0 +1,88 @@
+.FrndRqsts {
+    min-height: 70vh;
+    margin-top: 1cm;
+    padding: .5cm 0vw;
+
+    h2,
+    h3 {
+        margin: 0px;
+        font-weight: 500;
+    }
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    width: 15cm;
+
+    justify-content: space-between;
+
+    margin-bottom: .5cm;
+    border-bottom: thin solid rgb(177, 177, 177);
+    padding: .1cm 0cm;
+}
+
+.request-dark{
+    border-bottom: thin solid rgb(48, 48, 48);
+}
+
+.fname {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fname-dark{
+    color: white;
+}
+
+.buttonReqs {
+    display: flex;
+    column-gap: .3cm;
+}
+
+.acceptReq {
+    background-color: green;
+    color: white;
+}
+
+.deletereq {
+    background-color: rgb(243, 38, 38);
+}
+
+@media only screen and (max-width : 800px) {
+
+    .FrndRqsts {
+        width: 100%;
+    }
+
+    .request {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+
+    .buttonPro {
+        padding: .15cm .3cm;
+    }
+
+    .buttonReqs {
+        display: flex;
+        column-gap: .2cm;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+    .fname {
+        font-size: 18px;
+    }
+
+    .buttonPro {
+        padding: .1cm .2cm;
+        font-size: 13px;
+    }
+
+
+
+}

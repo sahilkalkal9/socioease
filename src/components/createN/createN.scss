@@ -1,0 +1,27 @@
+.create-note{
+    margin-top: 2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-input{
+    width: 5cm;
+    height: 1cm;
+
+    padding: .15cm .2cm;
+}
+
+.create-note-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: .2cm;
+}
+.add-note-button{
+    background-color: rgb(48, 99, 253);
+    border: none;
+    padding: .2cm;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}

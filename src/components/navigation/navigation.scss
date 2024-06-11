@@ -1,0 +1,405 @@
+.Navbar {
+    padding-top: .3cm;
+    // border: 1px solid rgb(199, 199, 199);
+
+
+    // padding: 0vw 5vw;
+}
+
+// logo
+.logo {
+    width: .9cm;
+}
+
+// navigation bar's left division
+.left-nav {
+    display: flex;
+    column-gap: .2cm;
+    align-items: center;
+}
+
+// my name
+.name {
+    color: rgb(208, 206, 206);
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: .015cm;
+}
+
+.name:hover {
+    color: rgb(243, 241, 241);
+}
+
+// navigation bar's menu item
+.menuItem {
+    color: rgb(32, 31, 31);
+    cursor: pointer;
+    font-size: 14px;
+    transition: .1s;
+}
+
+.nav-button {
+    font-size: 14px;
+    padding: .3cm .5cm;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(33, 112, 247);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+}
+
+.menuItem:hover {
+    text-decoration: underline;
+}
+
+// navigation menu
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: .3cm;
+}
+
+@media only screen and (max-width : 850px) {
+    .menu {
+        column-gap: 0.25cm;
+    }
+}
+
+
+
+.mCount {
+    padding: 0cm 0.15cm .04cm .15cm;
+    border-radius: 1000px;
+    height: fit-content;
+    font-size: 9px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(238, 47, 44);
+    margin-left: -.3cm;
+    margin-top: -.1cm;
+}
+
+// navigation menu container
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    // border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+// link of nav menu to component
+.link-nav {
+    text-decoration: none;
+    margin: 0px 0px;
+}
+
+.upic {
+    width: .6cm;
+    height: .6cm;
+    border-radius: 50px;
+    border: 1px solid rgb(33, 33, 33);
+    cursor: pointer;
+}
+
+.modee {
+    width: .6cm;
+    height: .6cm;
+
+
+    cursor: pointer;
+}
+
+#menuIcon {
+    display: none;
+}
+
+.notT {
+    width: .8cm;
+    height: .8cm;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    p {
+        margin: 0px 0px;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    width: max-content;
+    overflow: auto;
+    border: 1px solid #dbdbdb;
+    z-index: 1000;
+    margin-left: -.7cm;
+
+}
+
+#logoIcon {
+    display: none;
+}
+
+.logo-icon {
+    width: 1.5cm;
+    height: 1.5cm;
+}
+
+.logT {
+    padding: .2cm .3cm;
+    transition: .3s;
+    color: red;
+
+    &:hover {
+        background-color: rgb(255, 195, 195);
+    }
+}
+
+.msgN {
+    display: flex;
+}
+
+.mDot {
+    width: .28cm;
+    height: .28cm;
+    background-color: rgb(238, 47, 44);
+    margin-left: -.32cm;
+    border-radius: 100px;
+
+}
+
+.drop-item {
+    border-bottom: thin solid rgb(180, 180, 180);
+    padding: .2cm .3cm;
+    transition: .3s;
+    color: black;
+
+    &:hover {
+        background-color: rgb(207, 165, 240);
+    }
+
+}
+
+.drop-item-dark {
+    border-bottom: thin solid rgb(46, 46, 46);
+    color: white;
+    &:hover {
+        background-color: rgb(34, 34, 34);
+    }
+}
+
+.overlayNav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: .2s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 1cm .3cm 1cm .3cm;
+    backdrop-filter: blur(8px);
+}
+
+.add-content-heading {
+    font-size: 16px;
+    padding: .2cm 1cm;
+    border-radius: 20px;
+    // border-bottom: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+    color: rgb(201, 201, 201);
+}
+
+.overlayLogout {
+    font-size: 18px;
+    padding: .2cm 2cm .5cm 2cm;
+    border-radius: 20px;
+    // border-bottom: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fc6262cc;
+        border-radius: 20px;
+    }
+}
+
+.closee {
+    width: .55cm;
+    height: .55cm;
+    cursor: pointer;
+}
+
+#overlayNav {
+    display: none;
+}
+
+.close-container {
+    display: flex;
+    padding: .2cm .5cm 0.05cm 1cm;
+    justify-content: flex-end;
+}
+
+.add-content {
+    font-size: 18px;
+    padding: .2cm 1.5cm;
+    border-radius: 20px;
+    // border-bottom: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+
+    &:hover {
+        background-color: #bdbdff90;
+        border-radius: 20px;
+    }
+}
+
+.overlayItem {
+    font-size: 18px;
+    padding: .2cm 2cm;
+    border-radius: 20px;
+    // border-bottom: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(139, 139, 237);
+        border-radius: 20px;
+    }
+}
+
+.menuBox {
+    border-radius: 20px;
+    background-color: #bdbdfff4;
+}
+
+
+.addC {
+    border: none;
+    border-radius: 0px;
+
+}
+
+@media only screen and (max-width : 1000px) {
+    .upic {
+        display: none;
+    }
+
+    #menuIcon {
+        display: flex;
+    }
+
+    .overlayItem {
+        font-size: 17px;
+        padding: .12cm 1.8cm;
+    }
+
+    .close-container {
+        display: flex;
+        padding: .2cm .5cm 0.1cm 1cm;
+        justify-content: flex-end;
+    }
+
+    .overlayLogout {
+        font-size: 17px;
+        padding: .12cm 1.8cm .3cm 1.8cm;
+
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+    #logoIcon {
+        display: block;
+    }
+
+    .menuBox {
+        width: 100%;
+    }
+
+    .overlayItem,
+    .overlayLogout {
+        font-size: 16px;
+        padding: .12cm 1cm .3cm 1cm;
+    }
+
+    #logoWeb {
+        display: none;
+    }
+}
+
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-dark {
+    background-color: #0f0f13;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+
+
+.show {
+    display: block;
+}
+
+.pic-lower {
+    position: fixed;
+    z-index: 1;
+    position: relative;
+
+}
+
+.mt {
+    color: rgb(236, 234, 234);
+}
+
+@media only screen and (max-width : 700px) {
+
+    .upic,
+    .notT,
+    .modee {
+        width: .65cm;
+        height: .65cm;
+    }
+}

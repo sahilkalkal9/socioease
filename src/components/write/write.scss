@@ -1,0 +1,42 @@
+.Write {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2cm;
+}
+
+.write-box {
+    display: flex;
+    width: 10cm;
+    flex-direction: column;
+    row-gap: .3cm;
+
+}
+
+.write {
+
+    height: 4cm;
+    border: thin solid rgb(217, 217, 217);
+    padding: .2cm .2cm;
+    background-color: whitesmoke;
+    font-family: roboto;
+    border-radius: 10px;
+    color: black;
+}
+.write-dark{
+    color: white;
+    background-color: #0f0f13;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    .write-box {
+        width: 90%;
+    }
+
+    .write {
+        font-size: 14px;
+    }
+}

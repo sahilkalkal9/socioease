@@ -1,0 +1,127 @@
+.searchedUser-container {
+
+    position: fixed;
+    z-index: 1;
+    width: 10.3cm;
+    margin-top: .2cm;
+
+    background-color: #f4f4f4;
+    overflow-y: hidden;
+    // border: thin solid rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.searchedUser-container-dark {
+
+
+
+    background-color: #0f0f13;
+
+
+
+
+}
+
+.searchedUser-name {
+    color: black;
+}
+
+.searchedUser-name-dark {
+    color: white;
+}
+
+.search-home {
+    display: flex;
+    width: 10cm;
+    padding: .25cm .3cm;
+    align-items: center;
+    column-gap: .05cm;
+    border-radius: 10px;
+    border: thin solid rgb(171, 171, 171);
+    background-color: #f0fbff;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+.search-home-dark {
+
+    border: thin solid rgb(44, 44, 44);
+    background-color: #0f0f13;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+.searchh {
+    width: .45cm;
+    height: .45cm;
+    opacity: .7;
+    transform: rotate(15deg);
+}
+
+.crosss {
+    width: .45cm;
+    height: .45cm;
+    display: none;
+    cursor: pointer;
+}
+
+.search-user-input {
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    border: none;
+    background-color: #f0fbff;
+
+
+}
+
+.search-user-input-dark {
+    color: white;
+    background-color: #0f0f13;
+
+
+}
+
+.searchedUser {
+    padding: .2cm .5cm;
+    display: flex;
+    column-gap: 1cm;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: thin solid rgb(207, 207, 207);
+
+    &:hover {
+        background-color: rgb(219, 219, 219);
+    }
+}
+
+
+.searchedUser-dark {
+
+    background-color: #0f0f13;
+    border: 1px solid rgb(24, 24, 24);
+
+
+}
+
+.searchedUser-dark:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+
+.view-button {
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .SearchHome {
+        display: none;
+    }
+}

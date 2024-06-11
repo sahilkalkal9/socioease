@@ -1,0 +1,173 @@
+.edit-profile-container {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: white;
+    padding: .2cm .5cm;
+    display: flex;
+    flex-direction: column;
+    row-gap: .3cm;
+}
+.edit-profile-container-dark{
+    background-color: #0f0f13;
+    border: 1px solid rgb(24, 24, 24);
+}
+.editP-dark{
+    color: white;
+}
+.inputss {
+    display: flex;
+    flex-direction: column;
+    row-gap: .1cm;
+
+    input[type=text]:focus,
+    textarea:focus {
+        border: none;
+        outline: none;
+        border: 2px solid rgb(34, 161, 34);
+    }
+
+}
+
+.ppic {
+    width: 2.1cm;
+    height: 2.1cm;
+    border-radius: 100px;
+    cursor: pointer;
+    border: thin rgb(173, 173, 173) solid;
+    box-shadow: none;
+}
+
+.ppic-active {
+    box-shadow: rgb(152, 4, 206) 0px 1px 2px, rgb(152, 4, 206) 0px 0px 0px 2px;
+}
+
+.avatar-section {
+    overflow-y: scroll;
+    max-height: 5cm;
+    width: 20cm;
+    padding: .25cm;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .2cm;
+    row-gap: .2cm;
+    justify-content: space-around;
+}
+
+.edit-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-ep {
+    width: .3cm;
+    cursor: pointer;
+}
+
+.input-fields {
+    border: none;
+    border: 2px solid rgb(235, 235, 235);
+    padding: .2cm .2cm;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: .1cm .2cm;
+
+
+}
+
+.input-fields-dark{
+    color: white;
+    border: 2px solid rgb(42, 42, 42);
+}
+
+.input-fields:focus {
+    outline: skyblue;
+}
+
+.bio-textarea {
+    height: 2cm;
+    background-color: transparent;
+    font-family: roboto;
+}
+
+.bio-textarea-dark{
+    color: white;
+}
+
+.input-label {
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+}
+
+.input-label-dark{
+    color: rgb(168, 168, 168);
+}
+
+.EditProfile {
+    margin-top: 1cm;
+    display: flex;
+    margin-bottom: 2cm;
+    justify-content: center;
+    align-items: center;
+
+    // padding: 0vw 5vw;
+
+}
+
+.saveP {
+    cursor: pointer;
+    padding: .2cm;
+
+    border: 2px solid rgb(34, 161, 34);
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+
+    font-size: 18px;
+    width: 100%;
+    transition: .3s;
+}
+.saveP-dark{
+    color: white;
+}
+.saveP:hover {
+
+    border: 2px solid rgb(34, 161, 34);
+    background-color: rgb(34, 161, 34);
+    color: white;
+}
+
+@media only screen and (max-width : 950px) {
+    .avatar-section {
+        width: 96%;
+    }
+
+    .ppic {
+        width: 1.7cm;
+        height: 1.7cm;
+    }
+
+    .edit-profile-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .input-fields {
+        font-size: 14px;
+    }
+
+    .input-label {
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width : 600px) {
+    .ppic {
+        width: 1.55cm;
+        height: 1.55cm;
+    }
+}

@@ -1,0 +1,28 @@
+.verify-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verify-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-verify {
+    padding: .2cm .7cm;
+    border: none;
+    border-radius: 5px;
+    margin-top: .3cm;
+    background-color: rgb(33, 229, 255);
+    cursor: pointer;
+}
+
+#verifySent,
+#tooManyRqsts {
+    display: none;
+    margin-top: .1cm;
+}

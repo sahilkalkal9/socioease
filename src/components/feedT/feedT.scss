@@ -1,0 +1,177 @@
+.Feeds {
+    // border: 1px solid black;
+    width: auto;
+    max-height: 100%;
+    overflow: auto;
+    margin-top: .1cm;
+    // padding: .3cm .5cm;
+
+}
+
+.comments-section-feedT {
+    display: none;
+
+}
+
+.cmnt-input {
+    font-size: 14px;
+    padding: .15cm;
+    color: black;
+    background-color: transparent;
+    border: thin solid rgb(173, 173, 173);
+    border-radius: 5px;
+    width: 10cm;
+}
+.cmnt-input-dark{
+    color: white;
+    border: thin solid rgb(41, 41, 41);
+}
+
+.cmntt {
+    font-size: 14px;
+    padding: .05cm;
+    word-break: break-all;
+}
+
+.cmnt-det {
+    margin-left: 0;
+}
+
+.cmnt-button {
+    border: 2px solid royalblue;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 0cm .2cm;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        color: white;
+        background-color: royalblue;
+    }
+
+}
+
+.cmnt-button-dark {
+    color: white;
+}
+
+.thoughtH {
+
+    border-radius: 10px;
+    padding: .2cm .3cm;
+    margin-bottom: .15cm;
+    background-color: white; 
+
+
+
+}
+
+.cmntt-dark {
+    color: white;
+}
+
+.thoughtH-dark {
+    background-color: #0f0f13;
+
+}
+
+.thought-content-dark {
+    color: rgb(255, 255, 255);
+}
+
+.thought-name-dark {
+    color: white;
+}
+
+.thought-name {
+    font-size: 17.5px;
+    font-weight: 600px;
+}
+
+.commentHT {
+    display: flex;
+    column-gap: .2cm;
+}
+
+.show-comment-box {
+    display: flex;
+    /* Add other styling as needed */
+}
+
+@media only screen and (max-width : 600px) {
+    .thought-name {
+        font-size: 16px;
+    }
+
+    .cmnt-input {
+        min-width: 75%;
+    }
+
+    .thought-pic {
+        width: .7cm;
+        height: .7cm;
+        border-radius: 100px;
+        border: 1px solid rgb(182, 182, 182);
+        padding: .01cm;
+    }
+
+    .thought-date {
+        color: rgb(135, 135, 135);
+        font-size: 11px;
+    }
+
+    .like,
+    .nlike {
+        width: .4cm;
+        height: .4cm;
+
+        cursor: pointer;
+
+
+
+    }
+
+    .cmnt {
+        width: .35cm;
+        height: .35cm;
+        cursor: pointer;
+    }
+
+    .like-num {
+        font-size: 12px;
+    }
+
+    .thought-buttons {
+        display: flex;
+        column-gap: .2cm;
+
+        margin-top: .2cm;
+        align-items: baseline;
+    }
+
+    .chathead {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .cmntt {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .cmnt-input {
+        min-width: 70%;
+        font-size: 14px;
+    }
+
+    .cmnt-button {
+        padding: .1cm 0.1cm;
+        margin-top: .15cm;
+        width: 100%;
+    }
+
+}

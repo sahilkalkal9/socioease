@@ -1,0 +1,48 @@
+.Pagenotfound {
+    min-height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rxn-no-img {
+    width: 5.5cm;
+    padding-top: 1vh;
+}
+
+.rxn-no-text {
+    color: gray;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .rxn-no-img {
+        width: 4.5cm;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .rxn-no-img {
+        width: 3.5cm;
+    }
+
+    .rxn-no-text {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .rxn-no-img {
+        width: 3cm;
+    }
+
+    .rxn-no-text {
+        font-size: 11px;
+    }
+}
