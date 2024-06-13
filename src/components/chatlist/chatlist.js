@@ -1,5 +1,5 @@
 import "./chatlist.scss"
-import firebase from 'firebase/compat/app';
+
 import data from '@emoji-mart/data'
 import Picker from '@emoji-mart/react'
 import locb from "./locb.png"
@@ -23,12 +23,12 @@ import smartphone from "./smartphone.png"
 import linkifyStr from 'linkify-string';
 import snap from "./snap.png"
 import debounce from 'lodash.debounce';
-import 'firebase/compat/firestore';
+import firebase from "firebase/compat/app"
 import emojiB from "./ebl.png"
 import ebd from "./ebd.png"
 import infob from "./info.png"
 import info from "./infob.png"
-import 'firebase/compat/auth';
+
 import Modal from 'react-modal';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import React, { useState, useEffect, useRef, useMemo } from 'react';
@@ -70,18 +70,9 @@ import fb from "./forwardb.png"
 import EmojiPicker from 'emoji-picker-react';
 import { useCallback } from "react";
 import { set } from "lodash";
+import { auth, firestore } from "../../firebase"
 
-firebase.initializeApp({
-    apiKey: "AIzaSyCdHUfflhuggk40qmMoAFYPvGtR-9fl9Xs",
-    authDomain: "socioease.firebaseapp.com",
-    projectId: "socioease",
-    storageBucket: "socioease.appspot.com",
-    messagingSenderId: "205318143297",
-    appId: "1:205318143297:web:2f4474c8624cb79a2935c0"
-})
 
-const auth = firebase.auth();
-const firestore = firebase.firestore();
 
 function Done() {
     return (

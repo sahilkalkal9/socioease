@@ -14,7 +14,7 @@
     "classnames": "^2.3.2",
     "emoji-mart": "^5.5.2",
     "emoji-picker-react": "^4.4.10",
-    "firebase": "^9.23.0",
+    "firebase": "^10.12.2",
     "gh-pages": "^5.0.0",
     "ismobilejs": "^1.1.1",
     "linkify-string": "^4.1.1",
