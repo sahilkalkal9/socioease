@@ -12,6 +12,7 @@
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "classnames": "^2.3.2",
+    "dotenv": "^16.4.5",
     "emoji-mart": "^5.5.2",
     "emoji-picker-react": "^4.4.10",
     "firebase": "^10.12.2",
@@ -32,12 +33,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=7200 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "env": "env"
   },
   "eslintConfig": {
     "extends": [
