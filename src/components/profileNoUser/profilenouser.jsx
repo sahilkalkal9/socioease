@@ -8,18 +8,7 @@ import { Link, Outlet, Route, Routes, useLocation, useMatch, useParams } from 'r
 import { useCollection, useCollectionData } from 'react-firebase-hooks/firestore';
 
 
-firebase.initializeApp({
-    apiKey: "AIzaSyCdHUfflhuggk40qmMoAFYPvGtR-9fl9Xs",
-    authDomain: "socioease.firebaseapp.com",
-    projectId: "socioease",
-    storageBucket: "socioease.appspot.com",
-    messagingSenderId: "205318143297",
-    appId: "1:205318143297:web:2f4474c8624cb79a2935c0"
-});
-
-const auth = firebase.auth();
-const firestore = firebase.firestore();
-const db = firebase.firestore();
+import { auth, firestore, db } from "../../firebase"
 
 
 function ProfileNoUser() {

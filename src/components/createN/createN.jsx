@@ -3,7 +3,7 @@ import "./createN.scss"
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
-import 'firebase/compat/auth';
+import 'firebase/compat/auth'; 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import React, { useState, useEffect, useRef, memo } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
@@ -16,17 +16,7 @@ import Verify from "../verify/verify";
 
 
 
-firebase.initializeApp({
-    apiKey: "AIzaSyCdHUfflhuggk40qmMoAFYPvGtR-9fl9Xs",
-    authDomain: "socioease.firebaseapp.com",
-    projectId: "socioease",
-    storageBucket: "socioease.appspot.com",
-    messagingSenderId: "205318143297",
-    appId: "1:205318143297:web:2f4474c8624cb79a2935c0"
-})
-
-const auth = firebase.auth();
-const firestore = firebase.firestore();
+import { auth, firestore } from "../../firebase"
 
 function CreateN() {
     const [note, setNote] = useState("")
